@@ -1,0 +1,373 @@
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccTUNurD.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 6
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"main.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.main,"ax",%progbits
+  18              		.align	2
+  19              		.global	main
+  20              		.code	16
+  21              		.thumb_func
+  22              		.type	main, %function
+  23              	main:
+  24              	.LFB35:
+  25              		.file 1 ".\\main.c"
+   1:.\main.c      **** /* ========================================
+   2:.\main.c      ****  *
+   3:.\main.c      ****  * Copyright YOUR COMPANY, THE YEAR
+   4:.\main.c      ****  * All Rights Reserved
+   5:.\main.c      ****  * UNPUBLISHED, LICENSED SOFTWARE.
+   6:.\main.c      ****  *
+   7:.\main.c      ****  * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8:.\main.c      ****  * WHICH IS THE PROPERTY OF your company.
+   9:.\main.c      ****  *
+  10:.\main.c      ****  * ========================================
+  11:.\main.c      **** */
+  12:.\main.c      **** #include <project.h>
+  13:.\main.c      **** 
+  14:.\main.c      **** int main()
+  15:.\main.c      **** {
+  26              		.loc 1 15 0
+  27              		.cfi_startproc
+  28 0000 80B5     		push	{r7, lr}
+  29              		.cfi_def_cfa_offset 8
+  30              		.cfi_offset 7, -8
+  31              		.cfi_offset 14, -4
+  32 0002 00AF     		add	r7, sp, #0
+  33              		.cfi_def_cfa_register 7
+  34              	.L2:
+  16:.\main.c      ****     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+  17:.\main.c      **** 
+  18:.\main.c      ****     /* CyGlobalIntEnable; */ /* Uncomment this line to enable global interrupts. */
+  19:.\main.c      ****     for(;;)
+  20:.\main.c      ****     {
+  21:.\main.c      ****         Pin_RED_Write(~Pin_RED_Read());
+  35              		.loc 1 21 0 discriminator 1
+  36 0004 FFF7FEFF 		bl	Pin_RED_Read
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccTUNurD.s 			page 2
+
+
+  37 0008 031C     		mov	r3, r0
+  38 000a DB43     		mvn	r3, r3
+  39 000c DBB2     		uxtb	r3, r3
+  40 000e 181C     		mov	r0, r3
+  41 0010 FFF7FEFF 		bl	Pin_RED_Write
+  22:.\main.c      ****         Pin_GREEN_Write(~Pin_GREEN_Read());
+  42              		.loc 1 22 0 discriminator 1
+  43 0014 FFF7FEFF 		bl	Pin_GREEN_Read
+  44 0018 031C     		mov	r3, r0
+  45 001a DB43     		mvn	r3, r3
+  46 001c DBB2     		uxtb	r3, r3
+  47 001e 181C     		mov	r0, r3
+  48 0020 FFF7FEFF 		bl	Pin_GREEN_Write
+  23:.\main.c      ****         Pin_BLUE_Write(~Pin_BLUE_Read());
+  49              		.loc 1 23 0 discriminator 1
+  50 0024 FFF7FEFF 		bl	Pin_BLUE_Read
+  51 0028 031C     		mov	r3, r0
+  52 002a DB43     		mvn	r3, r3
+  53 002c DBB2     		uxtb	r3, r3
+  54 002e 181C     		mov	r0, r3
+  55 0030 FFF7FEFF 		bl	Pin_BLUE_Write
+  24:.\main.c      ****         
+  25:.\main.c      **** 
+  26:.\main.c      ****         
+  27:.\main.c      ****     }
+  56              		.loc 1 27 0 discriminator 1
+  57 0034 E6E7     		b	.L2
+  58              		.cfi_endproc
+  59              	.LFE35:
+  60              		.size	main, .-main
+  61 0036 C046     		.text
+  62              	.Letext0:
+  63              		.section	.debug_info,"",%progbits
+  64              	.Ldebug_info0:
+  65 0000 99000000 		.4byte	0x99
+  66 0004 0400     		.2byte	0x4
+  67 0006 00000000 		.4byte	.Ldebug_abbrev0
+  68 000a 04       		.byte	0x4
+  69 000b 01       		.uleb128 0x1
+  70 000c 81000000 		.4byte	.LASF13
+  71 0010 01       		.byte	0x1
+  72 0011 4F010000 		.4byte	.LASF14
+  73 0015 1B000000 		.4byte	.LASF15
+  74 0019 00000000 		.4byte	.Ldebug_ranges0+0
+  75 001d 00000000 		.4byte	0
+  76 0021 00000000 		.4byte	.Ldebug_line0
+  77 0025 02       		.uleb128 0x2
+  78 0026 01       		.byte	0x1
+  79 0027 06       		.byte	0x6
+  80 0028 3D010000 		.4byte	.LASF0
+  81 002c 02       		.uleb128 0x2
+  82 002d 01       		.byte	0x1
+  83 002e 08       		.byte	0x8
+  84 002f FD000000 		.4byte	.LASF1
+  85 0033 02       		.uleb128 0x2
+  86 0034 02       		.byte	0x2
+  87 0035 05       		.byte	0x5
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccTUNurD.s 			page 3
+
+
+  88 0036 19010000 		.4byte	.LASF2
+  89 003a 02       		.uleb128 0x2
+  90 003b 02       		.byte	0x2
+  91 003c 07       		.byte	0x7
+  92 003d 2A010000 		.4byte	.LASF3
+  93 0041 02       		.uleb128 0x2
+  94 0042 04       		.byte	0x4
+  95 0043 05       		.byte	0x5
+  96 0044 10010000 		.4byte	.LASF4
+  97 0048 02       		.uleb128 0x2
+  98 0049 04       		.byte	0x4
+  99 004a 07       		.byte	0x7
+ 100 004b 58000000 		.4byte	.LASF5
+ 101 004f 02       		.uleb128 0x2
+ 102 0050 08       		.byte	0x8
+ 103 0051 05       		.byte	0x5
+ 104 0052 00000000 		.4byte	.LASF6
+ 105 0056 02       		.uleb128 0x2
+ 106 0057 08       		.byte	0x8
+ 107 0058 07       		.byte	0x7
+ 108 0059 6A000000 		.4byte	.LASF7
+ 109 005d 03       		.uleb128 0x3
+ 110 005e 04       		.byte	0x4
+ 111 005f 05       		.byte	0x5
+ 112 0060 696E7400 		.ascii	"int\000"
+ 113 0064 02       		.uleb128 0x2
+ 114 0065 04       		.byte	0x4
+ 115 0066 07       		.byte	0x7
+ 116 0067 0E000000 		.4byte	.LASF8
+ 117 006b 02       		.uleb128 0x2
+ 118 006c 04       		.byte	0x4
+ 119 006d 04       		.byte	0x4
+ 120 006e 49010000 		.4byte	.LASF9
+ 121 0072 02       		.uleb128 0x2
+ 122 0073 08       		.byte	0x8
+ 123 0074 04       		.byte	0x4
+ 124 0075 23010000 		.4byte	.LASF10
+ 125 0079 02       		.uleb128 0x2
+ 126 007a 01       		.byte	0x1
+ 127 007b 08       		.byte	0x8
+ 128 007c 0B010000 		.4byte	.LASF11
+ 129 0080 02       		.uleb128 0x2
+ 130 0081 04       		.byte	0x4
+ 131 0082 07       		.byte	0x7
+ 132 0083 58010000 		.4byte	.LASF12
+ 133 0087 04       		.uleb128 0x4
+ 134 0088 53000000 		.4byte	.LASF16
+ 135 008c 01       		.byte	0x1
+ 136 008d 0E       		.byte	0xe
+ 137 008e 5D000000 		.4byte	0x5d
+ 138 0092 00000000 		.4byte	.LFB35
+ 139 0096 36000000 		.4byte	.LFE35-.LFB35
+ 140 009a 01       		.uleb128 0x1
+ 141 009b 9C       		.byte	0x9c
+ 142 009c 00       		.byte	0
+ 143              		.section	.debug_abbrev,"",%progbits
+ 144              	.Ldebug_abbrev0:
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccTUNurD.s 			page 4
+
+
+ 145 0000 01       		.uleb128 0x1
+ 146 0001 11       		.uleb128 0x11
+ 147 0002 01       		.byte	0x1
+ 148 0003 25       		.uleb128 0x25
+ 149 0004 0E       		.uleb128 0xe
+ 150 0005 13       		.uleb128 0x13
+ 151 0006 0B       		.uleb128 0xb
+ 152 0007 03       		.uleb128 0x3
+ 153 0008 0E       		.uleb128 0xe
+ 154 0009 1B       		.uleb128 0x1b
+ 155 000a 0E       		.uleb128 0xe
+ 156 000b 55       		.uleb128 0x55
+ 157 000c 17       		.uleb128 0x17
+ 158 000d 11       		.uleb128 0x11
+ 159 000e 01       		.uleb128 0x1
+ 160 000f 10       		.uleb128 0x10
+ 161 0010 17       		.uleb128 0x17
+ 162 0011 00       		.byte	0
+ 163 0012 00       		.byte	0
+ 164 0013 02       		.uleb128 0x2
+ 165 0014 24       		.uleb128 0x24
+ 166 0015 00       		.byte	0
+ 167 0016 0B       		.uleb128 0xb
+ 168 0017 0B       		.uleb128 0xb
+ 169 0018 3E       		.uleb128 0x3e
+ 170 0019 0B       		.uleb128 0xb
+ 171 001a 03       		.uleb128 0x3
+ 172 001b 0E       		.uleb128 0xe
+ 173 001c 00       		.byte	0
+ 174 001d 00       		.byte	0
+ 175 001e 03       		.uleb128 0x3
+ 176 001f 24       		.uleb128 0x24
+ 177 0020 00       		.byte	0
+ 178 0021 0B       		.uleb128 0xb
+ 179 0022 0B       		.uleb128 0xb
+ 180 0023 3E       		.uleb128 0x3e
+ 181 0024 0B       		.uleb128 0xb
+ 182 0025 03       		.uleb128 0x3
+ 183 0026 08       		.uleb128 0x8
+ 184 0027 00       		.byte	0
+ 185 0028 00       		.byte	0
+ 186 0029 04       		.uleb128 0x4
+ 187 002a 2E       		.uleb128 0x2e
+ 188 002b 00       		.byte	0
+ 189 002c 3F       		.uleb128 0x3f
+ 190 002d 19       		.uleb128 0x19
+ 191 002e 03       		.uleb128 0x3
+ 192 002f 0E       		.uleb128 0xe
+ 193 0030 3A       		.uleb128 0x3a
+ 194 0031 0B       		.uleb128 0xb
+ 195 0032 3B       		.uleb128 0x3b
+ 196 0033 0B       		.uleb128 0xb
+ 197 0034 49       		.uleb128 0x49
+ 198 0035 13       		.uleb128 0x13
+ 199 0036 11       		.uleb128 0x11
+ 200 0037 01       		.uleb128 0x1
+ 201 0038 12       		.uleb128 0x12
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccTUNurD.s 			page 5
+
+
+ 202 0039 06       		.uleb128 0x6
+ 203 003a 40       		.uleb128 0x40
+ 204 003b 18       		.uleb128 0x18
+ 205 003c 9642     		.uleb128 0x2116
+ 206 003e 19       		.uleb128 0x19
+ 207 003f 00       		.byte	0
+ 208 0040 00       		.byte	0
+ 209 0041 00       		.byte	0
+ 210              		.section	.debug_aranges,"",%progbits
+ 211 0000 1C000000 		.4byte	0x1c
+ 212 0004 0200     		.2byte	0x2
+ 213 0006 00000000 		.4byte	.Ldebug_info0
+ 214 000a 04       		.byte	0x4
+ 215 000b 00       		.byte	0
+ 216 000c 0000     		.2byte	0
+ 217 000e 0000     		.2byte	0
+ 218 0010 00000000 		.4byte	.LFB35
+ 219 0014 36000000 		.4byte	.LFE35-.LFB35
+ 220 0018 00000000 		.4byte	0
+ 221 001c 00000000 		.4byte	0
+ 222              		.section	.debug_ranges,"",%progbits
+ 223              	.Ldebug_ranges0:
+ 224 0000 00000000 		.4byte	.LFB35
+ 225 0004 36000000 		.4byte	.LFE35
+ 226 0008 00000000 		.4byte	0
+ 227 000c 00000000 		.4byte	0
+ 228              		.section	.debug_line,"",%progbits
+ 229              	.Ldebug_line0:
+ 230 0000 48000000 		.section	.debug_str,"MS",%progbits,1
+ 230      02001F00 
+ 230      00000201 
+ 230      FB0E0D00 
+ 230      01010101 
+ 231              	.LASF6:
+ 232 0000 6C6F6E67 		.ascii	"long long int\000"
+ 232      206C6F6E 
+ 232      6720696E 
+ 232      7400
+ 233              	.LASF8:
+ 234 000e 756E7369 		.ascii	"unsigned int\000"
+ 234      676E6564 
+ 234      20696E74 
+ 234      00
+ 235              	.LASF15:
+ 236 001b 433A5C55 		.ascii	"C:\\Users\\jsing\\Documents\\PSoC Creator\\Lab 1\\L"
+ 236      73657273 
+ 236      5C6A7369 
+ 236      6E675C44 
+ 236      6F63756D 
+ 237 0048 61622031 		.ascii	"ab 1.cydsn\000"
+ 237      2E637964 
+ 237      736E00
+ 238              	.LASF16:
+ 239 0053 6D61696E 		.ascii	"main\000"
+ 239      00
+ 240              	.LASF5:
+ 241 0058 6C6F6E67 		.ascii	"long unsigned int\000"
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccTUNurD.s 			page 6
+
+
+ 241      20756E73 
+ 241      69676E65 
+ 241      6420696E 
+ 241      7400
+ 242              	.LASF7:
+ 243 006a 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 243      206C6F6E 
+ 243      6720756E 
+ 243      7369676E 
+ 243      65642069 
+ 244              	.LASF13:
+ 245 0081 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 245      4320342E 
+ 245      382E3420 
+ 245      32303134 
+ 245      30353236 
+ 246 00b4 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 246      20726576 
+ 246      6973696F 
+ 246      6E203231 
+ 246      31333538 
+ 247 00e7 30202D66 		.ascii	"0 -ffunction-sections\000"
+ 247      66756E63 
+ 247      74696F6E 
+ 247      2D736563 
+ 247      74696F6E 
+ 248              	.LASF1:
+ 249 00fd 756E7369 		.ascii	"unsigned char\000"
+ 249      676E6564 
+ 249      20636861 
+ 249      7200
+ 250              	.LASF11:
+ 251 010b 63686172 		.ascii	"char\000"
+ 251      00
+ 252              	.LASF4:
+ 253 0110 6C6F6E67 		.ascii	"long int\000"
+ 253      20696E74 
+ 253      00
+ 254              	.LASF2:
+ 255 0119 73686F72 		.ascii	"short int\000"
+ 255      7420696E 
+ 255      7400
+ 256              	.LASF10:
+ 257 0123 646F7562 		.ascii	"double\000"
+ 257      6C6500
+ 258              	.LASF3:
+ 259 012a 73686F72 		.ascii	"short unsigned int\000"
+ 259      7420756E 
+ 259      7369676E 
+ 259      65642069 
+ 259      6E7400
+ 260              	.LASF0:
+ 261 013d 7369676E 		.ascii	"signed char\000"
+ 261      65642063 
+ 261      68617200 
+ 262              	.LASF9:
+ 263 0149 666C6F61 		.ascii	"float\000"
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccTUNurD.s 			page 7
+
+
+ 263      7400
+ 264              	.LASF14:
+ 265 014f 2E5C6D61 		.ascii	".\\main.c\000"
+ 265      696E2E63 
+ 265      00
+ 266              	.LASF12:
+ 267 0158 73697A65 		.ascii	"sizetype\000"
+ 267      74797065 
+ 267      00
+ 268              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br

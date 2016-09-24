@@ -1,0 +1,44 @@
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/main.o : C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_BLUE.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_BLUE_aliases.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_GREEN.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_GREEN_aliases.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_RED.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_RED_aliases.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/core_cmFunc.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/core_cmInstr.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/project.h C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/main.c 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_BLUE.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_BLUE_aliases.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_GREEN.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_GREEN_aliases.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_RED.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_RED_aliases.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/core_cmFunc.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/core_cmInstr.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/project.h : 
+
+C:/Users/jsing/Documents/PSoC\ Creator/Lab\ 1/Lab\ 1.cydsn/main.c : 
+
