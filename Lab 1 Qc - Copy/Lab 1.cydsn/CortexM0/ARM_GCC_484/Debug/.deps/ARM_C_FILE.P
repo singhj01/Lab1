@@ -1,0 +1,68 @@
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/Clock_1.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Clock_1.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Clock_1.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Clock_1.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Clock_1.c : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/Cm0Start.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Cm0Start.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Cm0Start.c : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/CyFlash.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyFlash.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyFlash.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyFlash.c : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/CyLib.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.c : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/PWM_1.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/PWM_1.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/PWM_1.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/PWM_1.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/PWM_1.c : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/PWM_1_PM.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/PWM_1.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/PWM_1_PM.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/PWM_1_PM.c : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/Pin_1.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_1.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_1_aliases.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cypins.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_1.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_1.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_1_aliases.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/Pin_1.c : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/cyPm.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyPm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyPm.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyPm.c : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/cyfitter_cfg.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/CyLib.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/cymetadata.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cymetadata.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cymetadata.c : 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/CortexM0/ARM_GCC_484/Debug/cyutils.o : D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cytypes.h D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyutils.c 
+
+D:/Users/jsing/Documents/PSoC\ Creator/Lab1/Lab\ 1/Lab\ 1.cydsn/Generated_Source/PSoC4/cyutils.c : 
+
